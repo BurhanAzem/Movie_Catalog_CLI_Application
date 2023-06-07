@@ -3,7 +3,7 @@ const { addMovie } = require('./file_handling');
 const { updateMovie } = require('./file_handling');
 const { deleteMovie } = require('./file_handling');
 const { searchMovie } = require('./file_handling');
-const { fetchMovieData } = require('./API_requests');
+const { fetchMovie } = require('./API_requests');
 
 class MovieManagement {
   static displayCatalog() {
@@ -27,7 +27,7 @@ class MovieManagement {
   }
 
   static fetchMovieData() {
-    fetchMovieData()
+    fetchMovie()
       .then(data => {
         // Use the fetched data here
         console.log(data);

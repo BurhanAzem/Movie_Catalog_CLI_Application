@@ -19,7 +19,6 @@ function menu() {
 }
 
 
-while(1){
     menu();
     rl.on('line', (input) => {
     const choice = input.trim();
@@ -46,4 +45,3 @@ while(1){
         console.log("Your choice is not valid.");
     }
     });
-}

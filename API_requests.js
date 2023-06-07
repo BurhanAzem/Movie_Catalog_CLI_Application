@@ -14,4 +14,5 @@ function fetchMovie() {
     .catch(err => console.error('error:' + err));
 }
 
-module.exports = fetchMovie
+
+module.exports = {fetchMovie}
