@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "node-fetch": "^2.6.11"
+    "node-fetch": "^2.6.11",
+    "prompt-sync": "^4.2.0"
   }
 }

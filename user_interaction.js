@@ -16,6 +16,7 @@ function menu() {
   console.log("4- Delete Movie");
   console.log("5- Search and Filter");
   console.log("6- Fetch Movie Data");
+  console.log("7- Exit");
 }
 
 
@@ -41,6 +42,8 @@ function menu() {
         case '6':
             movie_management.fetchMovieData();
         break;
+        case '7':
+            process.exit();
         default:
         console.log("Your choice is not valid.");
     }
